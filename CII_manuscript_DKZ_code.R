@@ -20,7 +20,7 @@ dataframe %>% pivot_longer(cols = 2:3,
 
 # Extended Data Fig 1f
 ## files needed: Supplemental Table 1, sheet 1 == dataframe
-oxphos_pathway_coessentiality %>%
+dataframe %>%
   pivot_longer(cols = 2:3,
                names_to = 'type',
                values_to = 'Canonical Correlation') %>%
